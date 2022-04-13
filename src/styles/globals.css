@@ -36,7 +36,9 @@ a {
 .close{
   display: none;
 }
-
+ li:hover{
+  color: #ea5555;
+}
 
 @media screen and (max-width: 768px) {
   .navMenu{
@@ -55,11 +57,15 @@ a {
     width: 100vw;
     z-index: 20;
     padding: 20px 0;
-    background-color: aliceblue;
+    background-color: #f3f6f4;
   }
+
   .active li{
     font-size: 1.6rem;
     margin: auto;
+  }
+  .active li:hover{
+    color: #ea5555;
   }
   .close{
     position: relative;

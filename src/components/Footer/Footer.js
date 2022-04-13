@@ -8,10 +8,10 @@ const Footer = () => {
             <div className='flex-1 lg:flex lg:justify-around justify-center'>
                 <div className='flex  w-1/2 mt-8 lg:mt-0 mx-auto '>
                     <ul>
-                        <li>&Aacute; PROPOS</li>
-                        <li>NOS SERVICES</li>
-                        <li>ARTICLES</li>
-                        <li>CONTACT</li>
+                        <li><a href="#home">&Aacute; PROPOS </a></li>
+                        <li><a href="#services">NOS SERVICES </a></li>
+                        <li><a href="#articles">ARTICLES </a></li>
+                        <li><a href="#contact">CONTACT </a></li>
                     </ul>
                 </div>
                 <div className='w-1/2 mt-8 mx-auto  lg:mt-0'>
